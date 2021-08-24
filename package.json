@@ -1,0 +1,38 @@
+{
+  "name": "prueba-mercadolibre",
+  "version": "1.0.0",
+  "description": "prueba para consumir api ML",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulespecialist/prueba-mercadolibre.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ml"
+  ],
+  "author": "raul espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulespecialist/prueba-mercadolibre/issues"
+  },
+  "homepage": "https://github.com/raulespecialist/prueba-mercadolibre#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
